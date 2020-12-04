@@ -1,0 +1,33 @@
+#ifndef DEFINE_H
+#define DEFINE_H
+
+enum SNAKE_BODY
+{
+	SNAKE_HEAD = 'O',
+	SNAKE_TAIL = 'T'
+};
+
+enum ITEMS
+{
+	APPLE = 'A',
+	OSBTACLES = '#'
+};
+
+enum STATUS_CODE
+{
+	SNAKE_MOVING,
+	SNAKE_DEAD_OUT_OF_RANGE,
+	SNAKE_DEAD_CRASHED,
+	SNAKE_GROWING
+};
+
+enum KEY
+{
+	NONE,
+	UP = 0x57,
+	DOWN = 0x53,
+	LEFT = 0x41,
+	RIGHT = 0x44
+};
+
+#endif
